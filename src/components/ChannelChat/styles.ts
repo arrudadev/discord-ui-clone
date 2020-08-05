@@ -26,11 +26,20 @@ export const Messages = styled.div`
 
   ::-webkit-scrollbar-thumb {
     background-color: var(--tertiary);
+    background-clip: padding-box;
+
     border-radius: 4px;
+    border: 4px solid var(--tertiary);
   }
 
-  ::-webkit-scrollbar-track {
-    background-color: var(--secondary);
+  ::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
   }
 `;
 
@@ -58,7 +67,7 @@ export const Input = styled.input`
 
   ~ svg {
     position: relative;
-    top: -50%;
+    top: -35px;
     left: 14px;
     transition: 180ms ease-in-out;
   }
