@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Grid } from './styles';
 
+import ChannelChat from '../ChannelChat';
 import ChannelInfo from '../ChannelInfo';
 import ChannelList from '../ChannelList';
 import ServerList from '../ServerList';
@@ -17,7 +18,7 @@ const Layout: React.FC = () => {
       <ChannelInfo />
       <ChannelList />
       <UserInfo />
-      <div />
+      <ChannelChat />
       <UserList />
     </Grid>
   );
