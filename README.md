@@ -1,5 +1,5 @@
 <h1>
-  <a href="#">
+  <a href="https://monteiro-alexandre-discord-ui-clone.netlify.app/">
     Discord UI Clone
   </a>
 </h1>
@@ -7,6 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 Discord UI clone for study purposes.
+<p>Deployed <a href="https://monteiro-alexandre-discord-ui-clone.netlify.app/">here</a>.</p>
 
 <p align="center">
   <img alt="DiscordUiClone" src=".github/assets/discord-ui-clone.png" width="100%">
