@@ -4,6 +4,7 @@
   </a>
 </h1>
 
+![build](https://github.com/monteiro-alexandre/discord-ui-clone/workflows/build/badge.svg?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 Discord UI clone for study purposes.
